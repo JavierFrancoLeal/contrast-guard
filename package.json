@@ -1,0 +1,32 @@
+{
+  "name": "contrast-guard",
+  "version": "1.0.0",
+  "description": "Zero-dependency WCAG 2.1 + perceptual CIELAB Delta-E contrast and anti-camouflage auditor for DOM, CSS gradients, SVG logos, and headless Chrome CDP.",
+  "type": "module",
+  "bin": {
+    "contrast-guard": "./src/cli.mjs"
+  },
+  "exports": {
+    ".": "./src/core.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/contrast-guard.test.mjs"
+  },
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "wcag",
+    "cielab",
+    "delta-e",
+    "contrast",
+    "cdp",
+    "chrome-devtools",
+    "design-systems",
+    "ci-gate"
+  ],
+  "author": "Javier Franco Leal (Trasunto)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
